@@ -1,10 +1,18 @@
+
+document.getElementsByClassName('content')[0].style.display='none';
 function ButtonFunction() {
-  var txt;
+
+    var txt;
+
   if (confirm("Do you want to check my HomeWork?") == true) {
       txt = "";
       alert("Choose the task")
+      document.getElementsByClassName('content')[0].style.display='block';
   } else {
       txt = "Sorry, I can't show you my HW!";
+      document.getElementsByClassName('content')[0].style.display='none';
+
+      //.map((e)=>e.style.display='none')
   }
   document.getElementById("demo").innerHTML = txt;
 }
