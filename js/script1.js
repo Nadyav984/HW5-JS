@@ -7,7 +7,7 @@ function ButtonFunction() {
   if (confirm("Do you want to check my HomeWork?") == true) {
       txt = "";
       alert("Choose the task")
-      document.getElementsByClassName('content')[0].style.display='block';
+      document.getElementsByClassName('content')[0].style.display='list-item';
   } else {
       txt = "Sorry, I can't show you my HW!";
       document.getElementsByClassName('content')[0].style.display='none';
