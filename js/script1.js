@@ -26,8 +26,8 @@ document.getElementById('content1').onclick=()=>{
 // Tsk2
 document.getElementById('content2').onclick=()=>{
 const USD = 26.60;
-const EUR = 31.00;
-const EURvsUSD = 1.17;
+const EUR = 31.70;
+const EURvsUSD = 1.19;
 
 
 var usdInput = prompt ("How much $ you have", "1");
